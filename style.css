@@ -16,7 +16,6 @@ body{
 header{
     background-color: #d32f2f;
     width: 100%;
-    height: 10%;
     align-items: center;
     display: flex;
     position: fixed;
@@ -897,6 +896,9 @@ footer {
 
 @media(max-width:600px){
 
+    header{
+        height: 5%;
+    }
     .logo img{
         width: 32px;
         height: 32px;
